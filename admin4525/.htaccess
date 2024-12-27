@@ -1,0 +1,14 @@
+#--------------------------------------------------
+# Répertoire : /include/
+#--------------------------------------------------
+
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
